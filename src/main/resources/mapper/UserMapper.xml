@@ -5,6 +5,6 @@
 
 <mapper namespace="UserMapper">
     <select id="getUserByName" resultType="User">
-    select * from user where name = #{name}
-  </select>
+        select * from user where name = #{name}
+    </select>
 </mapper>
